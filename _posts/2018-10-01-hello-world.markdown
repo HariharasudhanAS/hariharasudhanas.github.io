@@ -5,8 +5,8 @@ date: 2018-10-01
 categories:
   - Misc
 description: First post
-image: /_images/HelloWorld.jpg
-image-sm: /_images/HelloWorld.jpg
+image: "/_images/HelloWorld.jpg"
+image-sm: "/_images/HelloWorld.jpg"
 ---
 _Hola!_  
 <br>
