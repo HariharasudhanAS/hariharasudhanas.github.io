@@ -5,8 +5,8 @@ date: 2018-10-01
 categories:
   - Misc
 description: First post
-image: "/_images/HelloWorld.jpg"
-image-sm: "/_images/HelloWorld.jpg"
+image: https://i.postimg.cc/sXD81MNx/kobu-agency-798655-unsplash.jpg
+image-sm: https://i.postimg.cc/sXD81MNx/kobu-agency-798655-unsplash.jpg
 ---
 _Hola!_  
 <br>
