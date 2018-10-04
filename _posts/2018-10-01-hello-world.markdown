@@ -30,7 +30,8 @@ I know right! I’m hoping that changes. Another reason I started blogging. I wo
 ### You can also find me on :  
 <br>
 * [Hacker news](https://news.ycombinator.com/user?id=harias)
-* [Reddit](https://www.reddit.com/user/Hari_a_s)  
+* [Reddit](https://www.reddit.com/user/Hari_a_s)
+* [Quora](https://www.quora.com/profile/Hari-Hara-Sudhan-70)  
 <br>
 See you real soon.  
 _Cya!_
