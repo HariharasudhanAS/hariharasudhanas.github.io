@@ -3,7 +3,7 @@ layout: post
 title: "The Bias-Variance Tradeoff"
 date: 2018-10-15
 categories:
-  - Data Science
+  - Data-Science
 description: Intuitive understanding of the bias variance trade-off
 image: https://i.postimg.cc/YCK4WY17/Screenshot-from-2018-10-15-23-28-07.png
 image-sm: https://i.postimg.cc/YCK4WY17/Screenshot-from-2018-10-15-23-28-07.png
@@ -28,12 +28,12 @@ According to Google, Variance is :
 In the context of our model, this translates to the model being inconsistent. But inconsistent with what? We build our models on the sample data, and this is a subset of the larget population data. So, there are many sample data sets that could be drawn from the population dataset, and variance is the inconsistency of the model with respect to these various sample datasets. Assume we build a model on sample dataset A, and build it again on sample dataset B with the same assumptions as the earlier model w.r.t type of model, nature of relation etc, the amount of change in the prediction of a data point in the datasets is the variance of the model. Assume the linear regression case, if you had based your model on few predictors, a small change in the predictor values in the next sample dataset will cause a large change in your model. 
 The analogy - assume yourself to be the model on a plane that contains a plot between two predictors. Now you have to decide which class the point you are standing on belongs to, and hence assign it according to the opinions of the K nearest data points. Now, suppose you are standing on the same point as before, but a different sample dataset is plotted, you are much more prone to change your stance if your (the model’s) variance is high. 
 
-## Why the trade-off?
+### Why the trade-off?
 Let us take the KNN classification example. You are the model deciding the class the data point you are standing on belongs to. 
 Bias - You can be heavily biased or with a low bias. If heavily biased, it would take a lot of nearby data points to change your opinion.
 Variance - If you are heavily biased and require a lot of data points nearby to think opposite to your stance, you are unlikely to change much as the sample distributions drawn from the same population distribution are similar. But in the other case, if you require very few data points ( or logical arguments ) to change your stance, with a slight change in the sample distributions, your stance will change making you inconsistent.
 Thus, as bias decreases, variance increases. That is, they have an inverse relationship. 
-## Conclusion
+### Conclusion
 As a statistical modeler, one’s goal is often to reduce the error on the training (unseen) data. We do this by reducing the sum of the bias and variance term in the error decomposition equation. When the bias is low, we are said to have under-fit the data as the model is not responsive to the data, and over-fitting is when the model has very low bias and thus starts to be responsive to everydata point it comes across - even the noise.  
 Just like in real life, being highly biased or highly inconsistent ( variant ) isn’t the best approach to statistically model data. We learn from experience, but not believing everything we come across is also a vital part of learning. This post is more about getting an intuitive understanding than being mathematically correct.   
 P.S. This is my first technical blog post. Please reach out to me at harimailbox99 at google’s mail service dot com with any constructive feed back you might have.
