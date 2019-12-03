@@ -1,7 +1,7 @@
 # Site/SEO settings
 email: harimailbox99@gmail.com
 permalink: /:year/:month/:day/:title/
-google_analytics: UA-128214660-1
+google_analytics: 
 
 title: Hari's blog
 description: me bloga
